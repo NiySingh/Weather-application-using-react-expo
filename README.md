@@ -1,50 +1,71 @@
-# Welcome to your Expo app 👋
+# Weather-App
+Weather App built with React Native (Expo) that shows real-time weather data using OpenWeatherMap API. Users can search by city or use current location to view temperature, humidity, wind speed, and sunrise/sunset in a simple mobile-friendly UI.
+# 🌦️ Weather App (React Native + Expo)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A simple and modern **Weather Application** built using **React Native (Expo)** that allows users to check real-time weather conditions by city name or current location.
 
-## Get started
+##  Features
+*  Search weather by city name
+*  Get weather using current location
+*  Real-time temperature (°C)
+*  Humidity information
+*  Wind speed details
+*  Sunrise & 🌇 Sunset time
+*  Loading indicator & error handling
+*  Mobile-friendly UI (Expo Go support)
 
-1. Install dependencies
+## 🛠️ Tech Stack
+* React Native
+* Expo
+* TypeScript
+* OpenWeatherMap API
+* Expo Location API
 
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
+## 📦 Installation
+### 1. Clone the repository
 ```bash
-npm run reset-project
+git clone https://github.com/your-username/weather-app.git
+cd weather-app
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### 2. Install dependencies
+```bash
+npm install
+```
 
-## Learn more
+### 3. Setup environment variables
+Create a `.env` file:
+```env
+EXPO_PUBLIC_OPENWEATHERMAP_API_KEY=your_api_key_here
+EXPO_PUBLIC_API_BASE_URL=https://api.openweathermap.org/data/2.5
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+## ▶️ Run the App
+```bash
+npx expo start
+```
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Then scan QR code using **Expo Go app**.
 
-## Join the community
+## 📱 Usage
+* Enter a city name and press **Get Weather**
+* OR click **Use Current Location**
+* View live weather details instantly
 
-Join our community of developers creating universal apps.
+## 🔑 API Used
+This project uses the OpenWeatherMap API:
+https://openweathermap.org/api
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## ⚠️ Notes
+* Requires internet connection
+* Location permission required for GPS weather
+* Works best with Expo Go app
+
+## 👨‍💻 Author
+* Developed by: **Niyati Singh**
+
+---
+
+## 📄 License
+
+This project is open-source and available under the MIT License.
